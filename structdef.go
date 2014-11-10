@@ -1,10 +1,10 @@
-package goserbench
+package main
 
 import (
 	"time"
 )
 
-//go:generate msgp -o msgp_gen.go -io=false -tests=false
+//go:generate msgp -o msgp_gen.go -tests=false
 
 type A struct {
 	Name     string
